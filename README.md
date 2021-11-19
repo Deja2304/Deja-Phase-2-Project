@@ -10,11 +10,16 @@ In this project, I analyzed the homes sold in King County 2014-2015. My findings
 
 ## Business and Data Understanding
 
-Home sellers have expressed an interest in properly pricing homes so I dove into the Kings County data set to see what features were significant in adding value to a property.
+Home sellers have expressed an interest in properly pricing homes so I dove into the Kings County data set to see what features were significant in adding value to a property. From the data i observed i chose basic variables to base adding value and add more variables as i went.
 
 ## Modeling
 
 I created 3 models based on the variables i found relevant. The first model looked at sqft lot and how it added value to the home, i got an r-squared value of 8%. The second i used sqft lot, bedrooms, and bathrooms and i got an r-squared of 25%. My last model included sqft lot, sqft living, bathrooms, bedrooms and floors which gave me my best r-squared value of 45%.
+
+<img width="540" alt="Screen Shot 2021-11-19 at 1 15 48 PM" src="https://user-images.githubusercontent.com/92389914/142679141-58cc56ff-95e6-4543-aa23-5b3ebbac30e2.png">
+<img width="521" alt="Screen Shot 2021-11-19 at 1 15 58 PM" src="https://user-images.githubusercontent.com/92389914/142679160-1217d6b8-37d8-4d69-a234-29fb08e54c39.png">
+<img width="510" alt="Screen Shot 2021-11-19 at 1 16 21 PM" src="https://user-images.githubusercontent.com/92389914/142679173-f1e4f2c1-651a-4236-bd0d-477b879ce584.png">
+
 
 <img width="519" alt="Screen Shot 2021-11-19 at 10 22 18 AM" src="https://user-images.githubusercontent.com/92389914/142666383-699c6a93-5db1-4149-8d9a-66cac710bb40.png">
 
