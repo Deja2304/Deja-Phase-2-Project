@@ -14,27 +14,21 @@ Home sellers have expressed an interest in properly pricing homes so I dove into
 
 ## Modeling
 
-I created 3 models based on the variables i found relevant. The first model looked at sqft lot and how it added value to the home, i got an r-squared value of 8%. The second i used sqft lot, bedrooms, and bathrooms and i got an r-squared of 25%. My last model included sqft lot, sqft living, bathrooms, bedrooms and floors which gave me my best r-squared value of 45%.
+I created 7 models based on the variables i found relevant. The first model looked at sqft lot and how it added value to the home, i got an r-squared value of 8%. The second i used sqft lot, bedrooms, and bathrooms and i got an r-squared of 25%. My third model included sqft lot, sqft living, bathrooms, bedrooms and floors which gave me an r-squared value of 45%. My fourth model i added water front to get a r-squared of 46%. My fifth model i added in all of the conditions to get an r-squared of 47%. My sixth model i added in grade to get an r-squared of 54%. my seventh and final model gave me my best r-squared at 55% which i added zipcode. although the last model had the highest rsquared it still wasnt a good model because of the high rmse. 
 
-<img width="540" alt="Screen Shot 2021-11-19 at 1 15 48 PM" src="https://user-images.githubusercontent.com/92389914/142679141-58cc56ff-95e6-4543-aa23-5b3ebbac30e2.png">
-<img width="521" alt="Screen Shot 2021-11-19 at 1 15 58 PM" src="https://user-images.githubusercontent.com/92389914/142679160-1217d6b8-37d8-4d69-a234-29fb08e54c39.png">
-<img width="510" alt="Screen Shot 2021-11-19 at 1 16 21 PM" src="https://user-images.githubusercontent.com/92389914/142679173-f1e4f2c1-651a-4236-bd0d-477b879ce584.png">
+<img width="1028" alt="Screen Shot 2021-11-21 at 5 03 29 PM" src="https://user-images.githubusercontent.com/92389914/142785127-9ce6582a-84e1-4405-9d42-cc6c68a5b7a9.png">
 
-
-<img width="519" alt="Screen Shot 2021-11-19 at 10 22 18 AM" src="https://user-images.githubusercontent.com/92389914/142666383-699c6a93-5db1-4149-8d9a-66cac710bb40.png">
 
 ## Regression Results
-My predictions were accurate according to my test model. The model with an 45% r-squared showed bathrooms, floors, and sqft living adding value to homes while sqft lot and bedrooms decreased value if more are added. I need to go back in and add variables to attempt a better r-squared and to correct the bedrooms coef. that should be positive.
+My predictions were accurate according to my test model. The model with an 55% r-squared showed the zip code a home is in having the biggest affect on the homes pricing with an estimated $550 added as zip codes changed. I need to go back in and add variables to attempt a better r-squared and to correct the coef. that should be positive.
 
-<img width="532" alt="Screen Shot 2021-11-19 at 10 20 38 AM" src="https://user-images.githubusercontent.com/92389914/142666536-43ee28ab-ed65-4696-9868-7f2782efbfa1.png">
-<img width="367" alt="Screen Shot 2021-11-18 at 12 42 14 PM" src="https://user-images.githubusercontent.com/92389914/142666696-17fe5ebd-08b7-4175-8a8c-38eada68d034.png">
+<img width="506" alt="Screen Shot 2021-11-21 at 5 16 51 PM" src="https://user-images.githubusercontent.com/92389914/142785139-58a5caa4-b754-4f86-98ed-f214b4a795a3.png">
+<img width="1042" alt="Screen Shot 2021-11-21 at 5 32 49 PM" src="https://user-images.githubusercontent.com/92389914/142785150-5a425e66-d261-410a-b2d2-75c830dff3d8.png">
 
-
-<img width="358" alt="Screen Shot 2021-11-18 at 1 24 49 PM" src="https://user-images.githubusercontent.com/92389914/142666569-d9eda926-c49f-4c24-9fe2-9c2bfde81e52.png">
 
 ## Conclusion
 
-Of the models i created more bathrooms, floors, and sqft living help to add value to a home but they also say adding bedrooms decrease the value so i have a model that needs more work. More factors like condition, grade,  need to be looked at to give a proper analysis and help price homes.
+Of all the models I created my seventh and final was my best according to the R- squared, which was 55%, but most of the features didnt actually add value. I also got a rmse of 172022.53 which indicates my model is terrible. I recommend that I have more time to go back to the drawing board to get better predictions.
 
 For More Information
 
